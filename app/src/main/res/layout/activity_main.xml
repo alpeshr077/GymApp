@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#04569E"
+                android:src="@drawable/fitness_image2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Supplements"
+                android:textColor="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As a strategy for helping to
+build a brand,personal trainer slogans therefore act as a key marketing tool."
+                android:textStyle="normal"
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="38dp"
+                android:layout_marginRight="62dp"
+                android:layout_marginTop="460dp"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="34dp"
+                android:background="@drawable/login_design"
+                android:text="log In"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="38dp"/>
+
+            <TextView
+                android:id="@+id/next"
+                android:layout_width="120dp"
+                android:layout_height="34dp"
+                android:background="@drawable/login_2"
+                android:text="Sign Up"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="650dp"
+                android:layout_marginLeft="220dp"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
